@@ -1,8 +1,9 @@
 
 
 
+
 const button = document.querySelector('button');
-const bge = document.querySelector('section');
+const bge = document.querySelector('html');
 
 button.addEventListener('click',() => {
     let col = "#";
