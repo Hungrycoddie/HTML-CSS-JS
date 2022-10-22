@@ -15,7 +15,7 @@ function randomQuote(){
 // Fetching random quote or data from a API = api.quotable.io/random-fetch ;
 //phrasing it into a .js object  
     
-    fetch("http://api.quotable.io/random").then(response => response.json()).then(result => {
+    fetch("//api.quotable.io/random").then(response => response.json()).then(result => {
         quoteText.innerText = result.content;
         authorName.innerText = result.author;
         quoteBtn.classList.remove("loading");
